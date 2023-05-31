@@ -22,7 +22,6 @@
 
 ```
    <body>
-    <!-- Menus: contador de erros, botão de reset e dica --------- -->
     <div class="menus">
       <h2 id="erros">Erros: 0</h2>
       <div class="reset">
@@ -35,9 +34,7 @@
         <i class="fa-solid fa-lightbulb"></i>
       </button>
     </div>
-    <!-- Área da da charada -------------------------------------- -->
     <div id="DivPalavraSecreta"></div>
-    <!-- Text Input e Button de envio ---------------------------- -->
     <div class="resposta_box">
       <input id="resposta" type="text" placeholder="Resposta" />
       <button id="btn_envio" onclick="enviar()">Enviar</button>
@@ -45,4 +42,4 @@
   </body>
 ```
 
- - Completo : [HTML](https://github.com/isonhar/Faculdade-Jogo-de-adivinha-o/blob/main/index.html)
+- Completo : [HTML](https://github.com/isonhar/Faculdade-Jogo-de-adivinha-o/blob/main/index.html)
