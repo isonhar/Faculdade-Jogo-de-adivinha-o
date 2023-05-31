@@ -1,0 +1,35 @@
+// Container do input de texto e o botão de envio
+.resposta_box {
+  width: 100%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  // Input da resposta
+  input[type="text"] {
+    box-sizing: content-box;
+    width: 350px;
+    height: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 20px;
+    outline: none;
+    &:disabled {
+      background-color: #aaa;
+      color: green;
+      text-shadow: 0 0 5px #fff;
+    }
+  }
+  // botão de envio
+  #btn_envio {
+    width: 175px;
+    height: 40px;
+    cursor: pointer;
+    color: black;
+    &:disabled {
+      background-color: #bbb;
+    }
+  }
+}

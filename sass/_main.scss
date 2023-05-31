@@ -1,0 +1,23 @@
+@import "components/menus.scss", "components/palavraSecreta.scss",
+  "components/input.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgb(116, 116, 116), rgb(42, 42, 42));
+  background: url("../bg.png") no-repeat;
+  background-size: 105%;
+  background-position: 70% 0%;
+}
+
+
+

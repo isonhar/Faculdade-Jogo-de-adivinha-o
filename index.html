@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descubra a Palavra</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="script.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/0f4c2ee7cd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Menus: contador de erros, botão de reset e dica --------- -->
+    <div class="menus">
+      <h2 id="erros">Erros: 0</h2>
+      <div class="reset">
+        <button onclick="TentarDNV()">
+          <i class="fa-solid fa-rotate-right" id="resetIcons"></i>
+        </button>
+        <h3 id="text_dnv">Gerar outra palavra</h3>
+      </div>
+      <button id="dica" onclick="Dica(true)">
+        <i class="fa-solid fa-lightbulb"></i>
+      </button>
+    </div>
+    <!-- Área da da charada -------------------------------------- -->
+    <div id="DivPalavraSecreta"></div>
+    <!-- Text Input e Button de envio ---------------------------- -->
+    <div class="resposta_box">
+      <input id="resposta" type="text" placeholder="Resposta" />
+      <button id="btn_envio" onclick="enviar()">Enviar</button>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+// container do menu -------------------------
+.menus {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  // Contador de erros ----------------------
+  :nth-child(1n) {
+    font-size: 35px;
+    color: white;
+  }
+  // Botão de reset -----------------------------------------------------------------
+  .reset {
+    position: absolute;
+    top: 0;
+    width: 400px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // Texto de sugestão para gerar outra palavra, aparece apenas caso acerte ------
+    > h3 {
+      color: rgb(143, 222, 47);
+      opacity: 0;
+      transition: all 1s;
+      font-size: 20px;
+    }
+    // Classe adicionada ao Texto de sugestão quando acertar a palavra -------------
+    .visible {
+      opacity: 1 !important;
+    }
+  }
+  // Botão de dica ----------------------------------------------------------------
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    // Quando desabilitado mudar a cor ---------------------------------------------
+    &:disabled {
+      filter: invert(30%);
+    }
+  }
+}
