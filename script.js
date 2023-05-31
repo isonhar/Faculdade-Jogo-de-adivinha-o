@@ -202,9 +202,13 @@ let dica = [];
 let quantiaDeDicas = 0;
 let maxDeDicas;
 
+// SIMPLES---------------------------------------------------------------
+// Especificos---------------------------------------------------------------
+
 Main(true, palavraOculta);
 // Função principal para introduzir as palavras secretas
 function Main(boolean, palavra) {
+  palavraOculta = palavra;
   palavraComDica = palavra;
   Dificuldade(palavra);
   if (boolean) {
