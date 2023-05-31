@@ -57,7 +57,14 @@
         let quantiaDeDicas = 0;
         let maxDeDicas;
 
-- function Main()
+- function Main( )
+
+```
+   Função principal!
+   Ela consiste em receber um boolean para verificar se a "palavra" ja está como array.
+   Define algumas variáveis para serem usadas posteriormente.
+   Chama outras funções.
+```
 
 ```
    function Main(boolean, palavra) {
