@@ -82,7 +82,7 @@
 - Função responsavel por ocultar randomizar quais letras serão ocultas e ocultar.
 - Ela usa um array junto com um math random que gera valores entre 0 e o maximo de letras da palavra.
 - A quantidade de letras a serem ocultas é baseado na "DIFICULDADE".
-- A substituição das letras é feita na palavra como array.
+- Faz uso da função "PalavraArray( )" pra trasnformar a palavra em array.
 - No fim ele também armazena a palavra com letras ocultas em "palavraComCensura".
 - Ele retorna um array da palavra ja com os caracteres ocultos.
 
@@ -111,4 +111,15 @@
 
         return arrayLetras;
     }
+```
+
+### function PalavraArray( )
+
+- Transforma uma string em um array
+
+```
+   function PalavraArray(palavra) {
+        const palavraArray = palavra.split("");
+        return palavraArray;
+   }
 ```
