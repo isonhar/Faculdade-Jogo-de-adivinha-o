@@ -240,8 +240,6 @@ function OcultarLetras(palavra) {
 
   // define o maximo de dicas baseado na metade do tamanho do array "OcultaIndice"
   maxDeDicas = Math.floor(OcultaIndice.length / 2);
-  console.log(OcultaIndice.length);
-  console.log(maxDeDicas);
   // Aqui é onde substitui os indices por "*"
   // Porém se for um " " (espaço) vai somar +1 no indice para evitar de ocultar o mesmo.
   OcultaIndice.forEach((index) => {

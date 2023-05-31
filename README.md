@@ -76,3 +76,39 @@
       }
     }
 ```
+
+### function OcultarLetras( )
+
+- Função responsavel por ocultar randomizar quais letras serão ocultas e ocultar.
+- Ela usa um array junto com um math random que gera valores entre 0 e o maximo de letras da palavra.
+- A quantidade de letras a serem ocultas é baseado na "DIFICULDADE".
+- A substituição das letras é feita na palavra como array.
+- No fim ele também armazena a palavra com letras ocultas em "palavraComCensura".
+- Ele retorna um array da palavra ja com os caracteres ocultos.
+
+```
+    function OcultarLetras(palavra) {
+        const OcultaIndice = [];
+
+        for (let i = 0; i < DIFICULDADE; i++) {
+            const randomIndex = Math.floor(Math.random() * palavra.length);
+            OcultaIndice.push(randomIndex);
+        }
+
+        const arrayLetras = PalavraArray(palavra);
+
+        maxDeDicas = Math.floor(OcultaIndice.length / 2);
+
+        OcultaIndice.forEach((index) => {
+            if (arrayLetras[index] === " ") {
+                arrayLetras[index + 1] = "*";
+            } else {
+                arrayLetras[index] = "*";
+            }
+        });
+
+        palavraComCensura = arrayLetras;
+
+        return arrayLetras;
+    }
+```
