@@ -10,6 +10,14 @@
    - Possui um contador de erro e um botão de reset
 ```
 
+## Infos:
+
+```
+   - Uso de icons do FontAwesome.
+   - Uso de SASS.
+   - HTML,CSS e JAVASCRIPT.
+```
+
 ## HTML:
 
 ```
@@ -36,3 +44,5 @@
     </div>
   </body>
 ```
+
+-Completo : [HTML](https://github.com/isonhar/Faculdade-Jogo-de-adivinha-o/blob/main/index.html)
