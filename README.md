@@ -46,7 +46,7 @@
 
 ## JavaScript-Funções:
 
-- Variáveis:
+#### Variáveis:
 
         let DIFICULDADE = null;
         let palavraOculta = RandomizarPalavra();
@@ -57,7 +57,7 @@
         let quantiaDeDicas = 0;
         let maxDeDicas;
 
-- function Main( )
+#### function Main( )
 
 ```
    Função principal!
