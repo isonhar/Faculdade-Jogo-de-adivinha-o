@@ -47,6 +47,7 @@
 ## JavaScript-Funções:
 
 - Variáveis:
+
   let DIFICULDADE = null;
   let palavraOculta = RandomizarPalavra();
   let palavraComDica = null;
