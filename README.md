@@ -47,15 +47,14 @@
 ## JavaScript-Funções:
 
 - Variáveis:
-  ````let DIFICULDADE = null;
-  ```let palavraOculta = RandomizarPalavra();
-  ```let palavraComDica = null;
-  ```let contadorDeErros = 0;
-  ```let palavraComCensura = null;
-  ```let dica = [];
-  ```let quantiaDeDicas = 0;
-  ```let maxDeDicas;
-  ````
+  let DIFICULDADE = null;
+  let palavraOculta = RandomizarPalavra();
+  let palavraComDica = null;
+  let contadorDeErros = 0;
+  let palavraComCensura = null;
+  let dica = [];
+  let quantiaDeDicas = 0;
+  let maxDeDicas;
 
 ```
    - Jogo de adivinhar cidades do ceará
