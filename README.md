@@ -1,6 +1,6 @@
 # Trabalho de WebCoding
 
-![Tela]("https://github.com/isonhar/Faculdade-Jogo-de-adivinha-o/blob/main/Screen.jpg")
+![Tela](https://github.com/isonhar/Faculdade-Jogo-de-adivinha-o/blob/main/Screen.jpg)
 
 ## Descrição:
 
