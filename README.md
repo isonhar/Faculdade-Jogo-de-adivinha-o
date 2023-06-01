@@ -321,7 +321,7 @@
     }
 ```
 
-### function PalavraArray( )
+### function Dica( )
 
 - Basicamente ele serve para dar dicas ou zerar as dicas quando trocar a palavra.
 - Recebe um boolean.
