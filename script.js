@@ -329,7 +329,6 @@ function Dica(boolean) {
         }
       }
 
-      // transforma "palavraOculta" em array.
       palavraComDica = palavraOculta.split("");
 
       // Com dica[] ja possuindo os valores dos indices que contém "*"
@@ -342,7 +341,7 @@ function Dica(boolean) {
 
       quantiaDeDicas++;
     }
-  } else {
+  } else if (false) {
     dica = [];
     quantiaDeDicas = 0;
   }
