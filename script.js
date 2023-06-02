@@ -278,7 +278,7 @@ function PalavraArray(palavra) {
 function TentarDNV() {
   disabled(false);
   ContadorDeErros(false);
-  Dica(false);
+  Dica();
   Sucesso(false);
   NovaPalavra();
   inputText.value = "";
@@ -341,9 +341,10 @@ function Dica(boolean) {
 
       quantiaDeDicas++;
     }
-  } else if (false) {
+  } else {
     dica = [];
     quantiaDeDicas = 0;
+    maxDeDicas = 0;
   }
 }
 // Apaga as box de texto existente e gera uma nova com a palavra recebida no parâmetro
